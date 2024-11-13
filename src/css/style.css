@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 200;
+  font-family: "Sen", sans-serif;
+  box-sizing: border-box;
+  /* outline: 2px solid red; */
+}
+
+
+body { 
+  background-image: url('../Без\ названия\ \(9\).jpg');
+  background-size: cover; /* Растягиваем изображение на весь контейнер */
+  background-position: center; /* Центрируем изображение */
+  background-repeat: no-repeat; /* Избегаем повторения */
+  height: 100vh; /* Высота блока на весь экран */
+  width: 100%; /* Ширина блока на всю ширину */
+  margin: 0; /* Убираем отступы */
+  height: 100vh; /* Высота на весь экран */
+}
+
+.tetris-playground {
+  justify-self: center;
+  margin-left: 550px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  box-shadow: white;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #a1a1a1;
+}
